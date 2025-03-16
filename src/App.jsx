@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom"; // Import Router
+import { HashRouter as Router, Routes, Route, useNavigate } from "react-router-dom"; // Import Router
 import Column from "./Column";
 import Bird from "./Bird";
 import RestartAltIcon from '@mui/icons-material/RestartAlt';
