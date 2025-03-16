@@ -114,7 +114,7 @@ function Game({Home, setHome, Hightest, setHightest}) {
     fetchHighestScore();
     return (
       <div className="flex justify-center items-center w-screen h-screen">
-        <img onDragStart={(e) => e.preventDefault()} src="/img/GameStatus.png" />
+        <img onDragStart={(e) => e.preventDefault()} src={`${import.meta.env.BASE_URL}img/GameStatus.png`} />
         <div className="absolute grid grid-rows-3 gap-y-[10px]">
           <div className="notice"><center>Game Over</center></div>
           <div> <center>Your Grade : {point}</center></div>
@@ -153,7 +153,7 @@ function Game({Home, setHome, Hightest, setHightest}) {
           <br></br>
           History
         </button>
-        <img onDragStart={(e) => e.preventDefault()} src="/img/GameStatus.png" />
+        <img onDragStart={(e) => e.preventDefault()} src={`${import.meta.env.BASE_URL}img/GameStatus.png`} />
         <div className="grid gird-rows-2 absolute gap-y-[40px]">
           <div className="notice">HuYềN ThOạI Về COn ChiM</div>
           <center>
