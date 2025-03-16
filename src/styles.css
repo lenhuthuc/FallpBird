@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body {
+    height: 100vh; 
+    margin: 0;  
+    overflow: hidden; 
+}
+
+body {
+    background-image: url("/img/BackGround.png"); /* ✅ ĐÚNG */
+    background-size: cover;  /* Để ảnh phủ toàn bộ màn hình */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.notice {
+    font-family: Uncial Antiqua;
+    font-size: 40px;
+}
+
+select-none {
+    user-select: none;
+  }
+
+
